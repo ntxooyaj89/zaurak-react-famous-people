@@ -40,6 +40,17 @@ class FamousPerson extends Component {
 
     }
 
+    // handleButton = (event) => {
+    //     console.log('this is button');
+
+    //     this.setState({
+    //         role: event.target.value
+
+           
+    //     })
+        
+    // }
+
 
 
     render(){
@@ -50,6 +61,9 @@ class FamousPerson extends Component {
 
                 <input onChange = {this.handleRole}
                        type="text" placeholder="role" /> 
+
+                {/* <button onChange = {this.handleButton}>Submit</button> */}
+                               
 
             <br /> 
             <p>This is name: {this.state.name}</p> 
