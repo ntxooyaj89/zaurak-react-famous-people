@@ -40,16 +40,15 @@ class FamousPerson extends Component {
 
     }
 
-    // handleButton = (event) => {
-    //     console.log('this is button');
+    handleButton = (event) => {
+        this.setState({
+            name: event.target.value
+        })
+       
 
-    //     this.setState({
-    //         role: event.target.value
-
-           
-    //     })
         
-    // }
+        
+    }
 
 
 
@@ -62,7 +61,7 @@ class FamousPerson extends Component {
                 <input onChange = {this.handleRole}
                        type="text" placeholder="role" /> 
 
-                {/* <button onChange = {this.handleButton}>Submit</button> */}
+                <button onChange = {this.handleButton}>Submit</button>
                                
 
             <br /> 
