@@ -61,7 +61,7 @@ class FamousPerson extends Component {
                 <input onChange = {this.handleRole}
                        type="text" placeholder="role" /> 
 
-                <button onChange = {this.handleButton}>Submit</button>
+                <button onClick = {this.handleButton}>Submit</button>
                                
 
             <br /> 
